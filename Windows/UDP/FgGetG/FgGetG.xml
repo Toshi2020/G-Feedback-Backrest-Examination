@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <generic>
+
+  <output>
+    <binary_mode>true</binary_mode>
+    <binary_footer>none</binary_footer>
+	<byte_order>host</byte_order>
+
+   <chunk>
+    <name>heading (deg)</name>
+    <type>float</type>
+    <node>/orientation/heading-deg</node>
+   </chunk>
+
+   <chunk>
+    <name>pitch att (deg)</name>
+    <type>float</type>
+    <node>/orientation/pitch-deg</node>
+   </chunk>
+
+   <chunk>
+    <name>roll att (deg)</name>
+    <type>float</type>
+    <node>/orientation/roll-deg</node>
+   </chunk>
+
+   <chunk>
+    <name>x acceleration (G's)</name>
+    <type>float</type>
+    <node>/fdm/jsbsim/accelerations/n-pilot-x-norm</node>
+   </chunk>
+
+   <chunk>
+    <name>y acceleration (G's)</name>
+    <type>float</type>
+    <node>/fdm/jsbsim/accelerations/n-pilot-y-norm</node>
+   </chunk>
+
+   <chunk>
+    <name>z acceleration (G's)</name>
+    <type>float</type>
+    <node>/fdm/jsbsim/accelerations/n-pilot-z-norm</node>
+   </chunk>
+
+  </output>
+
+ </generic>
+
+</PropertyList>

@@ -1,0 +1,5 @@
+﻿  FsimGetG.cpp
+D:\MyProjects\シミュレーター\SimConnect\FsimGetG\FsimGetG.cpp(62,2): warning C4091: 'static ': 変数が何も宣言されていないときは、'EVENT_ID' の左辺を無視します。
+D:\MyProjects\シミュレーター\SimConnect\FsimGetG\FsimGetG.cpp(66,2): warning C4091: 'static ': 変数が何も宣言されていないときは、'DATA_DEFINE_ID' の左辺を無視します。
+D:\MyProjects\シミュレーター\SimConnect\FsimGetG\FsimGetG.cpp(70,2): warning C4091: 'static ': 変数が何も宣言されていないときは、'DATA_REQUEST_ID' の左辺を無視します。
+  FsimGetG.vcxproj -> D:\MyProjects\シミュレーター\SimConnect\FsimGetG\Debug\FsimGetG.exe
