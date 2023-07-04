@@ -78,7 +78,7 @@ http://www.prepar3d.com/SDK/Core%20Utilities%20Kit/Variables/Simulation%20Variab
 ・左右加速度は説明文ではin east/west direction、前後加速度は in north/south directionとありますが、方位には無関係のローカルな自分の座標に対しての値のようで、これは説明文の方が間違っていると思われます。  
 ・また上下加速度は値自体が変で、加速度の微分値(ジャーク)が出ているようです。実際VELOCITY BODY Yが重力込みの加速度のようで、これを微分するとACCELERATION BODY Yに一致しました。  
 ・仕様と異なる値を使いたくはないので、上下加速度に関してはGメーターの値である
-"G FORCE"を使うことにしました。これには重力加速度が含まれるので、得られた値からcos(Pitch) * cos(Bank)を差し引いて運動により加速度としています。これで正しいのかはわかりませんがそれっぽい値にはなっているようです。  
+"G FORCE"を使うことにしました。これには重力加速度が含まれるので、得られた値からcos(Pitch) * cos(Bank)を差し引いて運動による加速度としています。これで正しいのかはわかりませんがそれっぽい値にはなっているようです。  
 ・SimConnect_CallDispatch()をループ内で繰り返し呼び出してコールバックルーチンがデーターをアップデートしてくれるのを待つ必要があるとのことです。  
 https://docs.flightsimulator.com/html/Programming_Tools/SimConnect/API_Reference/General/SimConnect_CallDispatch.htm  
 
