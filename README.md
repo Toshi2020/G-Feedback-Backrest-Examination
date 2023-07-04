@@ -8,21 +8,21 @@ https://minkara.carview.co.jp/userid/3336538/blog/47065790/
 https://youtu.be/VhTnSI_Qglo
 
 ●ハードウェア  
-![回路図](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/2cc291c0-6cd0-4264-a617-a5b8daed87d7)
+![回路図](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/c6f385e8-a140-4533-b7f2-395c4e601653)
 
 ・サーボモーターへの指示ポートにはプルアップ抵抗を入れています。手持ちが8個入りのモジュール抵抗しかなかったので、中央でポキッと折って基板の裏に付けています(褒められるやり方ではないです)。プルアップしないとフラッシュ書き込みやリセット時にアームが一瞬動いてしまいます。逆側に動くとアームが取り付けボードに当たって拘束されストールする恐れがあります。  
 ・サーボモーター接続用のピンソケットはArduino NANOに直付けしています。  
 ・タクトSWも基板に直付けしていますが、コールド側もポートに接続してL出力とすることでGNDレベルとしています。  
-![NANO写真](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/4b2d232c-a1b2-45a1-948e-c94bd22a8105)
+![NANO写真](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/29b0e6a6-8495-4bd3-b48e-e6f4175eced4)
 
 
 ・サーボモーター保持ブラケットとアームは3Dプリンタで印刷しています。両面テープと木ネジでMDFボードに取り付けました。アームは25Tのアルミ製円形サーボホーンとM3x10mmネジ4本で固定しています。  
 ・ArduinoやDCジャックはホットボンドで取り付けています。  
 ・100均の玄関マットをカットしてマジックテープで貼り付け、やはり100均のクッションから中綿を抜いたカバーを適当に縫ってサイズを縮め、ファスナーも縫い付けてダボッとしたカバーを作成しました。  
-![全体(補正)](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/5155bfd0-be7d-4842-94f2-773cf2b9790d)
-![カーペット](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/b7988287-038a-4557-9625-c4558e843ebf)
-![カバー](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/11e36c61-fbcf-4ddd-8f94-894b2d1f6a31)
-![セット後全体(補正)](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/d11323cb-ee87-4315-a897-93a3e0c7f4a9)
+![全体(補正)](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/c9bf4ff3-ad12-472d-989a-50de739e044c)
+![カーペット](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/0deaa0d5-e01f-4d93-a0bc-a363ed9e3758)
+![カバー](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/bc5cccd0-4c42-458f-a26c-11c4bae40f9d)
+![セット後全体(補正)](https://github.com/Toshi2020/G-Feedback-Backrest-Examination/assets/81674805/2f5d21a7-5841-4541-b93d-faa163aa0371)
 
 ●Arduino側ソフト  
 ・ソースフォルダ：Arduino\G-FeedBackRest  
