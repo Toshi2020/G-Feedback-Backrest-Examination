@@ -226,4 +226,4 @@ void MapDismiss()
 }
 // ここまで
 //----------------------------------------------------------------------------
-/*** end of "Sim0405_AssettoCorsa.cpp" ***/
+/*** end of "Sim04_AssettoCorsa.cpp" ***/
